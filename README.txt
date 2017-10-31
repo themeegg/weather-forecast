@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: (themeegg)
 Donate link: http://themeegg.com
 Tags: comments, spam
 Requires at least: 3.0.1
