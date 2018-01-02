@@ -119,7 +119,7 @@ class Weather_Forecast_Widget extends WP_Widget {
         $instance = wp_parse_args( (array) $instance, $defaults );
         ?>
         <p>
-            <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title', 'location-weather' ); ?>
+            <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title', 'weather-forecast' ); ?>
                 <input id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
                        class="widefat"
                        type="text"
@@ -129,7 +129,7 @@ class Weather_Forecast_Widget extends WP_Widget {
         </p>
         <p>
             <label
-                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_id' ) ); ?>"><?php _e( 'ID', 'location-weather' ); ?>
+                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_id' ) ); ?>"><?php _e( 'ID', 'weather-forecast' ); ?>
                 <input id="<?php echo esc_attr( $this->get_field_id( 'location_weather_id' ) ); ?>"
                        class="widefat"
                        type="text"
@@ -139,7 +139,7 @@ class Weather_Forecast_Widget extends WP_Widget {
         </p>
         <p>
             <label
-                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_city' ) ); ?>"><?php _e( 'City', 'location-weather' ); ?>
+                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_city' ) ); ?>"><?php _e( 'City', 'weather-forecast' ); ?>
                 <input id="<?php echo esc_attr( $this->get_field_id( 'location_weather_city' ) ); ?>"
                        class="widefat"
                        type="text"
@@ -149,7 +149,7 @@ class Weather_Forecast_Widget extends WP_Widget {
         </p>
         <p>
             <label
-                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_country' ) ); ?>"><?php _e( 'Country', 'location-weather' ); ?>
+                for="<?php echo esc_attr( $this->get_field_id( 'location_weather_country' ) ); ?>"><?php _e( 'Country', 'weather-forecast' ); ?>
                 <input id="<?php echo esc_attr( $this->get_field_id( 'location_weather_country' ) ); ?>"
                        class="widefat"
                        type="text"

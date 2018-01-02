@@ -37,7 +37,7 @@ class Weather_Forecast_i18n {
 		load_plugin_textdomain(
 			'weather-forecast',
 			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+			dirname( dirname( plugin_basename( __FILE__ ) ) ) . 'i18n/languages/'
 		);
 
 	}
